@@ -326,20 +326,26 @@ d5['stops'][3]=stop('10:15–10:45','宗廟 → 明洞餃子｜計程車回明�
 d5['stops'][4]=stop('10:45–11:20','明洞餃子本店｜刀切麵快速收尾','兩人各一碗刀切麵，這次不加整份蒸餃，避免拖到取行李；兩人估 ₩24,000–32,000。10分鐘仍沒入座就放棄，改便利商店飯糰／三明治。米其林現行為入選餐廳，不沿用過往必比登稱號。',[('用餐35分鐘',''),('11:20硬離開','must')],q='명동교자 본점',src=['kyoja','michelinlist'],kind='dining-stop')
 d5['stops'].insert(5,stop('11:20–12:20','回飯店取行李・退房','步行回住宿或搭短程計程車，取回寄放行李並完成退房。檢查護照、退稅單、行動電源與房卡；12:30離開飯店是硬截止。若住Nine Tree仁寺洞，可從宗廟直接回飯店，明洞餃子改同區簡餐以免折返。',[('12:30最晚離店','must'),('依最終飯店修正','check')]))
 
+S.update({
+'hotelsearch4':('Google Hotels｜2027/1/5–1/9、2位成人、明洞四星飯店查價','https://www.google.com/travel/search?q=4%20star%20hotels%20Myeongdong%20Seoul&adults=2&currency=USD&hl=zh-TW&ts=CAEaIAoCGgASGhIUCgcI6w8QARgFEgcI6w8QARgJGAQyAggBKgkKBToDVVNEGgA'),
+'voco':('voco Seoul Myeongdong｜IHG官方飯店頁','https://www.ihg.com/voco/hotels/us/en/seoul/selvo/hoteldetail'),
+'royal':('Royal Hotel Seoul｜官方飯店頁','https://royal.co.kr/en/index.php'),
+})
+
 hotel=table(['排名／住宿選項','交通與行程優勢','可能缺點','每晚兩人','4晚合計'],[
-('<b>1｜LOTTE HOTEL SEOUL</b><br>The Grand Lotte Seoul','乙支路入口站旁；2號線直達弘大、聖水，步行可到明洞與德壽宮。<div class="actions"><a class="action" href="https://www.lottehotel.com/seoul-grand/en" target="_blank" rel="noopener noreferrer">飯店官網</a></div>','訂房時須確認 Main Tower／Executive Tower、Twin 床型與取消條款。','<b>NT$11,827–11,838</b><br>免費取消方案','<b>NT$47,308–47,352</b>'),
-('<b>2｜The Westin Josun Seoul</b><br>首爾威斯汀朝鮮酒店','位於市廳站與明洞之間；1、2號線都方便，步行可到德壽宮與SeMA。<div class="actions"><a class="action" href="https://www.marriott.com/en-us/hotels/selwi-the-westin-josun-seoul/overview/" target="_blank" rel="noopener noreferrer">飯店官網</a></div>','部分客房風格較傳統；訂房時仍須確認兩張獨立床。','<b>NT$11,888</b><br>免費取消方案','<b>NT$47,552</b>'),
-('<b>3｜Le Méridien Seoul Myeongdong</b><br>首爾明洞艾美酒店','明洞核心位置，飯店較新；逛街、晚間覓食與回房都方便。<div class="actions"><a class="action" href="https://www.marriott.com/en-us/hotels/selmm-le-meridien-seoul-myeongdong/overview/" target="_blank" rel="noopener noreferrer">飯店官網</a></div>','明洞人潮多，尖峰叫車、上下行李較不方便。','<b>NT$13,386</b><br>免費取消方案','<b>NT$53,544</b>'),
-('<b>4｜Four Seasons Hotel Seoul</b><br>首爾四季酒店','光化門位置最適合景福宮、昌德宮、宗廟與韓屋主線，服務與設施也是五間中最好。<div class="actions"><a class="action" href="https://www.fourseasons.com/seoul/" target="_blank" rel="noopener noreferrer">飯店官網</a></div>','前往弘大、聖水與蠶室沒有2號線沿線飯店直接；價格最高。','<b>NT$21,013</b><br>免費取消方案','<b>NT$84,052</b>'),
-('<b>5｜THE PLAZA Seoul, Autograph Collection</b><br>首爾廣場傲途格精選酒店','正對首爾市廳；德壽宮、SeMA與1、2號線都近。<div class="actions"><a class="action" href="https://www.marriott.com/en-us/hotels/selak-the-plaza-seoul-autograph-collection/overview/" target="_blank" rel="noopener noreferrer">飯店官網</a></div>','部分基礎房型偏小；目前指定日期沒有公開即時價格。','<b>目前未顯示</b>','向飯店或Marriott詢價'),
-])+detail('這五間怎麼選？','<ol><li><b>整體最均衡：</b>Westin Josun，價格只比LOTTE略高，市廳、明洞、德壽宮與兩條地鐵線都好用。</li><li><b>市區交通第一：</b>LOTTE，2號線移動弘大、聖水最直接，古蹟日也容易轉乘。</li><li><b>喜歡較新飯店與明洞逛街：</b>Le Méridien。</li><li><b>把宮殿古蹟與飯店體驗放第一：</b>Four Seasons；四晚比前三間多約NT$30,000–36,700。</li><li><b>偏愛市廳正對面：</b>THE PLAZA，但先取得同條件正式報價再比較。</li></ol><p>查價條件：2027/1/5入住、1/9退房，2位成人同住1室，共4晚，幣別TWD；查價日為2026/9/11。表內優先採當時可見的免費取消方案。LOTTE另見約NT$10,182／晚的較低價，但未標示免費取消，因此未列入主價。實際下訂須再次確認Twin／兩張獨立床、早餐、稅費、取消期限與最終付款總額。</p>')
+('<b>1｜Four Points by Sheraton Josun Seoul Myeongdong</b><br>首爾明洞福朋喜來登酒店','乙支路3街站旁，2、3號線最適合景福宮、昌德宮、宗廟、弘大與聖水；官方列機場巴士6015。'+actions('포포인츠 바이 쉐라톤 조선 서울 명동',['fourpoints']),'回明洞核心約步行10–15分鐘；目前起價已接近預算上限。','<b>US$180 起</b>','<b>約 US$720 起</b>'),
+('<b>2｜L7 Myeongdong</b><br>L7 명동 바이 롯데','明洞站旁，6015／6001機場巴士與4號線最省搬行李；逛街、炸雞及D5回房取行李方便。'+actions('L7 명동 바이 롯데',['l7','l7visit']),'往弘大、聖水需轉2號線；房型與浴缸須依訂房頁確認。','<b>US$190 起</b>','<b>約 US$760 起</b>'),
+('<b>3｜voco Seoul Myeongdong</b><br>首爾明洞沃科酒店','會賢站／南大門市場側，靠近明洞與首爾站；有室內泳池，品牌與設施完整。'+actions('voco 서울 명동',['voco']),'不是明洞步行街中心；到2、3號線沿線景點通常須轉乘或搭車。','<b>US$170 起</b>','<b>約 US$680 起</b>'),
+('<b>4｜Royal Hotel Seoul</b><br>首爾皇家酒店','位於明洞街與明洞聖堂附近，晚餐、購物後回房最直接；官方有Standard Twin與Premier Twin。'+actions('로얄호텔서울',['royal']),'離明洞站與乙支路入口站都有一段步行；老牌飯店，房況感受較依房型而異。','<b>US$169 起</b>','<b>約 US$676 起</b>'),
+('<b>5｜Nine Tree by Parnas Seoul Myeongdong II</b><br>首爾明洞二號九樹帕納斯酒店','乙支路3街站步行約4分鐘，2、3號線好用；官方有Standard Twin、投幣洗衣與自助休息區。'+actions('나인트리 바이 파르나스 서울 명동 2',['ninetree']),'到明洞步行街約10–15分鐘；評論常見的取捨是隔音與尖峰電梯。','<b>US$144 起</b>','<b>約 US$576 起</b>'),
+])+detail('這五間怎麼選？','<ol><li><b>行程交通最平衡：</b>Four Points；2、3號線可直接處理古蹟日與弘大、聖水。</li><li><b>機場巴士與明洞逛街最省力：</b>L7；價格最高但仍低於US$200目標。</li><li><b>想要較完整設施：</b>voco；適合重視泳池、品牌服務與南大門位置。</li><li><b>每天晚上都想逛明洞：</b>Royal Hotel；位置最深入商圈。</li><li><b>價格與交通性價比：</b>Nine Tree Myeongdong II，四晚起價比L7少約US$184。</li></ol><p>查價條件：2027/1/5入住、1/9退房，2位成人同住1室，共4晚，幣別USD；查價日為2026/9/12。Google Hotels顯示的是當時最低起價，不等於Twin、早餐、免費取消或最終含稅成交價。若相同條件的Twin含稅價超過US$200／晚，依序改查下一間，不為品牌突破上限。</p>')
 budget=table(['項目','兩人合計・5 日 4 夜','每人分攤','計算口徑'],[
-('雙床房住宿','NT$47,308–84,052','NT$23,654–42,026','四間已有公開價格飯店的四晚合計；THE PLAZA待詢價'),
+('雙床房住宿','US$576–760 起','US$288–380 起','五間明洞四星候選的四晚最低起價；Twin、含稅與可退方案須重查'),
 ('餐飲與咖啡','₩600,000–900,000','₩300,000–450,000','含炸雞、三種共鍋、蔘雞湯、肉夢韓豬、早餐與咖啡；高價米其林套餐／韓牛／大量酒水另加'),
 ('交通','₩180,000–260,000','₩90,000–130,000','往返機場巴士＋市區地鐵＋少量計程車，含看戲散場回程彈性；非包車'),
 ('門票／活動','₩280,000–380,000','₩140,000–190,000','Frozen S／R兩張，加宮殿、展覽與汗蒸額度；VIP、韓服及NANTA另計'),
 ('網路／保險／零星預備','₩100,000–160,000','₩50,000–80,000','自行分配；實際依網路及保險方案'),
-('<b>住宿外當地開支</b>','<b>₩1,160,000–1,700,000</b>','<b>₩580,000–850,000</b>','<b>另加上方TWD住宿與國際機票</b>；不含個人購物、醫美、滑雪或郊外團')])
+('<b>住宿外當地開支</b>','<b>₩1,160,000–1,700,000</b>','<b>₩580,000–850,000</b>','<b>另加上方USD住宿與國際機票</b>；不含個人購物、醫美、滑雪或郊外團')])
 
 extra_css='''
     .day-layout>*{min-width:0}.timeline,.stop-main,.table-scroll{min-width:0;max-width:100%}.stop{min-width:0}.table-scroll{width:100%}
@@ -372,9 +378,9 @@ for i,d in enumerate(days):
 body.append('<section class="section-block" id="events"><h2 class="section-title">那段時間，有什麼值得期待？</h2><p class="section-copy">查核日期：2026/8/30。分開看「已列日期」「官方預定」「新季未公布」與「本次不適用」，避免把 2026 年 1 月的活動誤當 2027 年 1 月。</p><div class="event-grid">'+''.join(f'<article class="event-card"><span class="event-label">{a}</span><h3>{b}</h3><p>{c}</p><p><b>怎麼排：</b>{d}</p><p><b>費用／限制：</b>{e}</p><div class="actions">{f}</div></article>' for a,b,c,d,e,f in events)+'</div>'+detail('活動查核時間表｜何時再看才有用？','<ul><li><b>2026/11/15：</b>看冬季節慶、冰場、燈節是否有新季公告；沒公告只保留彈性時段。</li><li><b>2026/12/15：</b>確認 1/5–1/9 逐日開放、可訂場次、價格與取消規則；這时才決定付費活動。</li><li><b>2027/1/2–1/4：</b>重查臨時休業、演出、交通和天候；2027 的入境要求也再次核對。</li><li><b>旅行當天：</b>看冰場空氣品質／天氣停開與河道封閉公告，戶外可隨時換室內。</li></ul><p>這是人工確認清單，沒有建立自動監控，也沒有代買票。</p>')+'</section>')
 body.insert(len(body)-1,food_section)
 body.append(star_section)
-body.append('<section class="section-block" id="stay"><h2 class="section-title">住宿選擇與兩人預算</h2><p class="section-copy">住宿以交通方便與品質為優先，排除廉價住宿；下表已加入2027/1/5–1/9兩人一室的查價結果。</p>'+hotel+'<h3>住宿用查價幣別，當地開支用韓元</h3>'+budget+'<p class="footnote">房價為2026/9/11查價快照，不代表鎖價或已預訂。下訂前以相同Twin／兩張獨立床、含稅總價、早餐與取消政策重查；THE PLAZA目前沒有指定日期公開價格。住宿與當地開支保留原幣別，避免套用未來匯率。</p>'+detail('機票怎麼挑，這份行程最好用？','<p>暫以台灣出發作方便理解的情境，但沒有認定桃園或某家航空公司。挑 1/5 中午前後抵達仁川、1/9 傍晚以後離開的組合，能保留約三個完整日加首尾半日。比較時把托運行李、選位、餐點和更改規則一起算，別只看票面最低價。若晚去早回，就必須刪首日晚間與末日採買，其他三天仍成立。</p>')+'</section>')
+body.append('<section class="section-block" id="stay"><h2 class="section-title">住宿選擇與兩人預算</h2><p class="section-copy">住宿改以明洞附近四星飯店為主，目標是兩人一室每晚低於US$200；不列膠囊、旅館或評價明顯偏低的便宜選項。</p>'+hotel+'<div class="actions">'+source('hotelsearch4','查看同條件查價')+'</div><h3>住宿用查價幣別，當地開支用韓元</h3>'+budget+'<p class="footnote">房價為2026/9/12查價快照，不代表鎖價或已預訂。Google Hotels起價可能是不可退或非Twin房型；付款前必須以兩張獨立床、含稅總價、早餐需求與取消政策重查。住宿與當地開支保留原幣別，避免套用未來匯率。</p>'+detail('機票怎麼挑，這份行程最好用？','<p>暫以台灣出發作方便理解的情境，但沒有認定桃園或某家航空公司。挑 1/5 中午前後抵達仁川、1/9 傍晚以後離開的組合，能保留約三個完整日加首尾半日。比較時把托運行李、選位、餐點和更改規則一起算，別只看票面最低價。若晚去早回，就必須刪首日晚間與末日採買，其他三天仍成立。</p>')+'</section>')
 
-booking=[('party','確認同行人數、兩張獨立床、飲食禁忌與可接受步行量'),('flight','補上去回程班號、起降時間、ICN／GMP 與航廈'),('hotel','用相同條件比較 LOTTE、Westin Josun、Le Méridien、Four Seasons、THE PLAZA：1/5–1/9、Twin、禁菸、含稅與可退'),('entry','12 月重查 2027 K-ETA／免簽規則；不可直接沿用 2026 豁免'),('arrival','依自身資格判定是否填 e-Arrival Card；需填者在入境前 3 日內辦'),('heritage','確認昌德宮建築區／後苑票種，以及宗廟 1/9 週六開放與修繕動線'),('spa','確認 Spa Lei 1/8 營業、女性限定、入場費與例行維護公告'),('festival','11 月及 12 月查新季燈節、冰場是否涵蓋 1/5–1/9'),('art','核對 SeMA 1/8 展覽、館別、票價與預約方式'),('show','先查 1/6–1/8 明星卡司，再確認 Frozen 或替代作品的連號座位、字幕與退票政策'),('meal','查開城餃子宮、南浦麵屋、肉夢的營業與兩人訂位；換明星場日期時餐廳一起調整'),('transport','核對機場巴士 6015／AREX 的 2027 正式時刻與實際航廈'),('weather','出發前 72 小時看天氣、空氣品質與戶外停開公告'),('return','按真實航班倒推出發時間，記在手機行事曆')]
+booking=[('party','確認同行人數、兩張獨立床、飲食禁忌與可接受步行量'),('flight','補上去回程班號、起降時間、ICN／GMP 與航廈'),('hotel','用相同條件比較Four Points、L7、voco、Royal Hotel、Nine Tree Myeongdong II：1/5–1/9、Twin、禁菸、含稅、可退且每晚不超過US$200'),('entry','12 月重查 2027 K-ETA／免簽規則；不可直接沿用 2026 豁免'),('arrival','依自身資格判定是否填 e-Arrival Card；需填者在入境前 3 日內辦'),('heritage','確認昌德宮建築區／後苑票種，以及宗廟 1/9 週六開放與修繕動線'),('spa','確認 Spa Lei 1/8 營業、女性限定、入場費與例行維護公告'),('festival','11 月及 12 月查新季燈節、冰場是否涵蓋 1/5–1/9'),('art','核對 SeMA 1/8 展覽、館別、票價與預約方式'),('show','先查 1/6–1/8 明星卡司，再確認 Frozen 或替代作品的連號座位、字幕與退票政策'),('meal','查開城餃子宮、南浦麵屋、肉夢的營業與兩人訂位；換明星場日期時餐廳一起調整'),('transport','核對機場巴士 6015／AREX 的 2027 正式時刻與實際航廈'),('weather','出發前 72 小時看天氣、空氣品質與戶外停開公告'),('return','按真實航班倒推出發時間，記在手機行事曆')]
 packing=[('passport','護照、機票與飯店確認單，離線備份'),('money','兩張可海外刷的卡、少量韓元，分開保管'),('network','eSIM／SIM、NAVER Map、翻譯 App 先設定'),('card','每人一張交通卡；現金儲值方案先確認'),('coat','發熱內搭、可分層中層、防風保暖外套'),('gloves','手套、帽子／耳罩、圍巾、厚襪'),('shoe','鞋底防滑、能走碎石與濕路的鞋'),('skin','護唇膏、乳液、防曬、日常藥品'),('power','韓規插頭轉接器、充電線、符合航空規則的行動電源'),('bags','折疊購物袋、液體防漏袋、易碎品緩衝材料')]
 def checkcard(title,items):return f'<article class="check-card"><h3>{title}</h3><div class="checklist">'+''.join(f'<label class="check-row"><input type="checkbox" data-key="{key}"><span>{text}</span></label>' for key,text in items)+'</div><div class="progress" aria-hidden="true"><span></span></div><div class="progress-label" aria-live="polite"></div></article>'
 body.append('<section class="utility section-block" aria-labelledby="prep-title"><h2 id="prep-title">出發前準備</h2><p class="section-copy">勾選狀態只保存在目前瀏覽器，不會同步到另一支手機。所有項目起始均未完成，不代表已代辦。</p><div class="utility-grid">'+checkcard('預訂與確認',booking)+checkcard('冬季隨身打包',packing)+'<article class="reservation-card"><h3>目前預訂狀態｜全部尚未代訂</h3><p class="reservation-intro">以下是規劃狀態，沒有沿用岡山行程的預約編號或確認紀錄。</p><div class="reservation-list">'+''.join(f'<div class="reservation-row"><span class="status-dot watch"></span><strong>{a}</strong><span class="status-text">{b}</span></div>' for a,b in [('去回程航空','未提供／未訂；13:00 落地與 18:00 起飛只為排程示例'),('Solaria 西鐵明洞・4 晚 Twin','建議住宿，尚未查即時房況／未預訂'),('D1 明洞餃子／D2 土俗村','計畫現場候位，沒有預約'),('D2 開城餃子宮','未訂；可先請飯店確認是否接受兩人預約'),('D3 聖水午餐／COEX 晚餐','候位與現場選店，沒有固定訂位'),('D4 Myth Jokbal／D5 河東館','未訂，營業與售完情況須再確認'),('NANTA／SeMA','未購票；按指定日售票頁決定'),('首爾廣場溜冰／清溪川燈節','新季個別日期待公布，保留替换方案')])+'</div></article></div>')
@@ -427,12 +433,12 @@ revisions={
 '再留一點時間給暖湯、茶屋、咖啡與兩個人自在聊天。':'再用炸雞、不同湯底的暖鍋與米其林口袋名單，串起兩個人好好吃的五天。',
 '古蹟、明星音樂劇候選與弘大「帥哥烤肉」，再用炸雞、不同湯底的暖鍋與米其林口袋名單，串起兩個人好好吃的五天。':'景福宮、昌德宮、宗廟、德壽宮與北村韓屋，接上明星音樂劇、美食和女性專用汗蒸，排成有重點也有休息的五天。',
 '韓豬綜合 550g＋飯＋湯或蒸蛋擇一；<b>₩80,000–110,000</b>。不是米其林；當日服務人員無法指定。':'韓豬綜合 550g＋飯＋湯或蒸蛋擇一；<b>₩80,000–110,000</b>。不是米其林；當日服務人員無法指定。17:10提早吃，餐後接Spa Lei。',
-'Solaria 西鐵明洞・4 晚 Twin':'五間高級飯店 Twin 候選',
+'Solaria 西鐵明洞・4 晚 Twin':'五間明洞四星飯店 Twin 候選',
 'Solaria 西鐵明洞・連住 4 晚':'市中心 Twin・連住 4 晚',
-'優先比較 Twin 雙床房；飯店尚未預訂。':'主案交通先以明洞／市廳為基地；住宿改比較LOTTE、Westin Josun、Le Méridien、Four Seasons與THE PLAZA，均未預訂。',
+'優先比較 Twin 雙床房；飯店尚未預訂。':'主案交通先以明洞／乙支路為基地；住宿比較Four Points、L7、voco、Royal Hotel與Nine Tree Myeongdong II，均未預訂。',
 '<strong>5 日 4 夜</strong>・明洞連住':'<strong>5 日 4 夜</strong>・市中心連住',
-'<li>飯店地址：서울 중구 명동8길 27，솔라리아 니시테츠 호텔 서울 명동。建議先存截圖，這仍是候選飯店。</li>':'<li>飯店確定後，把韓文名稱、地址與電話各存一張離線截圖；本頁五間高級飯店都尚未預訂，日程交通仍以明洞／市廳一帶為基地。</li>',
-'建議住宿，尚未查即時房況／未預訂':'LOTTE、Westin Josun、Le Méridien、Four Seasons、THE PLAZA均未預訂；前四間已有查價快照',
+'<li>飯店地址：서울 중구 명동8길 27，솔라리아 니시테츠 호텔 서울 명동。建議先存截圖，這仍是候選飯店。</li>':'<li>飯店確定後，把韓文名稱、地址與電話各存一張離線截圖；五間明洞四星候選都尚未預訂，日程交通仍以明洞／乙支路一帶為基地。</li>',
+'建議住宿，尚未查即時房況／未預訂':'Four Points、L7、voco、Royal Hotel、Nine Tree Myeongdong II均未預訂；已有指定日期起價快照',
 'D4 南浦麵屋＋肉夢／D5 明洞餃子（河東館備案）':'D4 南浦麵屋＋肉夢＋Spa Lei／D5 宗廟後明洞餃子',
 }
 for old,new in revisions.items():out=out.replace(old,new)
